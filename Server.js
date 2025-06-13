@@ -22,7 +22,7 @@ let screen, settingsBox, perfBox, activityBox, consoleBox;
 if (config.Dashboard) {
   screen = blessed.screen({
     smartCSR: true,
-    title: 'GAG Dashboard | By 3itx'
+    title: 'GAG Dashboard | By JKT48Connect'
   });
 
   settingsBox = blessed.box({
@@ -260,7 +260,7 @@ fs.readdir(funcsDir, (err, files) => {
   app.listen(PORT, () => {
     logConsole(`🚀 Server live at http://localhost:${PORT}`);
     logConsole(`Available endpoints: GET /status`);
-    logConsole(`This GAG API is made by 3itx | https://github.com/just3itx | Add Credits if you wanna modify`);
+    logConsole(`This GAG API is made by j-forces | https://github.com/j-forces`);
     updateUI();
   });
 });
