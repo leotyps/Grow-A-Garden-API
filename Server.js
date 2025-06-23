@@ -6,7 +6,7 @@ const blessed = require('blessed');
 const cors = require('cors');
 
 const configPath = path.join(__dirname, 'config.json');
-let config = { IPWhitelist: false, WhitelistedIPs: [], Dashboard: true, Port: 3000, UseGithubMutationData: true };
+let config = { IPWhitelist: true, WhitelistedIPs: ["114.10.121.97", "20.9.130.252"], Dashboard: true, Port: 3000, UseGithubMutationData: true };
 
 if (fs.existsSync(configPath)) {
   config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
