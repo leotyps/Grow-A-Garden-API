@@ -2,7 +2,9 @@
 
 ### If you like this pls give me a star 🙏
 ### i Recomand hosting your self since there is multiple people using vercel which makes it slower so uh yeah pls host it ur self it will be more faster
-### im planing to Make a premium one which will update realtime no delays and reliable but this will require 5 dollar for lifetime to Maintain the Hosting
+
+## Premium API Costs: 5 Dollar with Real-Time Update With Weather and Stock For now more coming soon adding | Join this Discord Server to Purchase https://discord.gg/bf7MFhYpXb
+
 ### [CHANGELOGS](https://github.com/Just3itx/Grow-A-Garden-API/blob/main/CHANGELOG.md)
 
 Welcome to the **Grow a Garden API**. This open-source API provides a straightforward way to access in-game gardening data—including stock levels, weather conditions, and item information—without the need to host or maintain bots yourself.
@@ -18,18 +20,13 @@ features include:
 
 # 💿Too Lazy to host your self?
 Don't Worry i've decided to use Vercel to host this api so u don't have to here is the url
-- https://growagardenapi.vercel.app/api/stock/GetStock
-- https://growagardenapi.vercel.app/api/GetWeather
-- https://growagardenapi.vercel.app/api/Item-Info
-- https://growagardenapi.vercel.app/api/stock/Restock-Time
-- https://growagardenapi.vercel.app/api/CalculatePrice?Name=Carrot&Weight=.25&Variant=Rainbow&Mutation=Moonlit,Bloodlit,Disco
-
+- ATM Vercel Decided to Pause The API so ill be looking for a new Host to host it the API Public
 # ⚙️ Installation
 
 To get started with the Grow a Garden API, you’ll need to have Node.js installed. After that, you can set up the API with the following dependencies:
 
 ```bash
-npm install express fs path os blessed
+npm install express fs path os blessed cors
 ```
 
 # 💻 Running the Server
@@ -37,7 +34,7 @@ npm install express fs path os blessed
 Once your setup is complete, you can start the server by running:
 
 ```bash
-node server.js
+node Server.js
 ```
 
 This will launch the API server and make it ready to handle requests.
