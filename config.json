@@ -1,5 +1,5 @@
 {
-  "IPWhitelist": true,
+  "IPWhitelist": false,
   "WhitelistedIPs":
   ["114.10.121.97", "20.9.130.252"],
   "Dashboard": true,
