@@ -1,6 +1,6 @@
 {
   "IPWhitelist": true,
-  "WhitelistedIPs": [],
+  "WhitelistedIPs": ["114.10.121.97"],
   "Dashboard": true,
   "Port": 3000
 }
